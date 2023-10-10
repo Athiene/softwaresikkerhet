@@ -10,7 +10,7 @@ cd
 ```bash
 docker build -t aspnetcoreapp .
 ```
-3. Etter du har laget docker iamge, kan du nå runne imaget i en container.
+3. Etter du har laget docker imaget, kan du nå runne imaget i en container.
 ```bash
 docker run -it --rm -p 8080:80 --name myapp aspnetcoreapp
 ```
