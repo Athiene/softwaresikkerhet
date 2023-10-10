@@ -6,7 +6,7 @@
 ```bash
 cd
 ```
-2. Dermed må du bygge en docker image: docker build -t aspnetcoreapp .
+2. Dermed må du bygge en docker image.
 ```bash
 docker build -t aspnetcoreapp .
 ```
