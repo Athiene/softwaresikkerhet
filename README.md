@@ -1,6 +1,6 @@
-# softwaresikkerhet
+# Softwaresikkerhet
 
-# Docker Running
+## Docker Running
 
 1. Først naviger deg til prosjekt mappen.
 ```bash
