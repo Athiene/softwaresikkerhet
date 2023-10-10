@@ -15,4 +15,4 @@ docker build -t aspnetcoreapp .
 docker run -it --rm -p 8080:80 --name myapp aspnetcoreapp
 ```
 
-Du vil finne nettsiden i ved [I'm an inline-style link](https://www.google.com](http://localhost:8080:80)http://localhost:8080:80)
+Du vil finne nettsiden i ved [Link](https://www.google.com](http://localhost:8080:80)http://localhost:8080:80)
