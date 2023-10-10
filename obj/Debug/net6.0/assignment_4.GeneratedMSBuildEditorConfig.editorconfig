@@ -9,101 +9,101 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = assignment_4
 build_property.RootNamespace = assignment_4
-build_property.ProjectDir = C:\Users\ArvinSkole\Downloads\amrapstad-main@c922a8331e1\assignment_4\
+build_property.ProjectDir = C:\Users\ArvinSkole\repositories\softwaresikkerhet\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ArvinSkole\Downloads\amrapstad-main@c922a8331e1\assignment_4
+build_property.MSBuildProjectDirectory = C:\Users\ArvinSkole\repositories\softwaresikkerhet
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ArvinSkole/Downloads/amrapstad-main@c922a8331e1/assignment_4/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/ArvinSkole/repositories/softwaresikkerhet/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ArvinSkole/Downloads/amrapstad-main@c922a8331e1/assignment_4/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/ArvinSkole/repositories/softwaresikkerhet/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ArvinSkole/Downloads/amrapstad-main@c922a8331e1/assignment_4/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/ArvinSkole/repositories/softwaresikkerhet/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ArvinSkole/Downloads/amrapstad-main@c922a8331e1/assignment_4/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/ArvinSkole/repositories/softwaresikkerhet/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ArvinSkole/Downloads/amrapstad-main@c922a8331e1/assignment_4/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/ArvinSkole/repositories/softwaresikkerhet/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ArvinSkole/Downloads/amrapstad-main@c922a8331e1/assignment_4/Views/Blog/Add.cshtml]
+[C:/Users/ArvinSkole/repositories/softwaresikkerhet/Views/Blog/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ArvinSkole/Downloads/amrapstad-main@c922a8331e1/assignment_4/Views/Blog/Delete.cshtml]
+[C:/Users/ArvinSkole/repositories/softwaresikkerhet/Views/Blog/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ArvinSkole/Downloads/amrapstad-main@c922a8331e1/assignment_4/Views/Blog/Details.cshtml]
+[C:/Users/ArvinSkole/repositories/softwaresikkerhet/Views/Blog/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ArvinSkole/Downloads/amrapstad-main@c922a8331e1/assignment_4/Views/Blog/Edit.cshtml]
+[C:/Users/ArvinSkole/repositories/softwaresikkerhet/Views/Blog/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ArvinSkole/Downloads/amrapstad-main@c922a8331e1/assignment_4/Views/Blog/Index.cshtml]
+[C:/Users/ArvinSkole/repositories/softwaresikkerhet/Views/Blog/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ArvinSkole/Downloads/amrapstad-main@c922a8331e1/assignment_4/Views/Home/Index.cshtml]
+[C:/Users/ArvinSkole/repositories/softwaresikkerhet/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ArvinSkole/Downloads/amrapstad-main@c922a8331e1/assignment_4/Views/Home/Privacy.cshtml]
+[C:/Users/ArvinSkole/repositories/softwaresikkerhet/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ArvinSkole/Downloads/amrapstad-main@c922a8331e1/assignment_4/Views/Shared/Error.cshtml]
+[C:/Users/ArvinSkole/repositories/softwaresikkerhet/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ArvinSkole/Downloads/amrapstad-main@c922a8331e1/assignment_4/Views/Shared/Shared/Error.cshtml]
+[C:/Users/ArvinSkole/repositories/softwaresikkerhet/Views/Shared/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNoYXJlZFxFcnJvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ArvinSkole/Downloads/amrapstad-main@c922a8331e1/assignment_4/Views/Shared/Shared/_LoginPartial.cshtml]
+[C:/Users/ArvinSkole/repositories/softwaresikkerhet/Views/Shared/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNoYXJlZFxfTG9naW5QYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ArvinSkole/Downloads/amrapstad-main@c922a8331e1/assignment_4/Views/Shared/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ArvinSkole/repositories/softwaresikkerhet/Views/Shared/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ArvinSkole/Downloads/amrapstad-main@c922a8331e1/assignment_4/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/ArvinSkole/repositories/softwaresikkerhet/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ArvinSkole/Downloads/amrapstad-main@c922a8331e1/assignment_4/Views/Shared/_PostPartial.cshtml]
+[C:/Users/ArvinSkole/repositories/softwaresikkerhet/Views/Shared/_PostPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qb3N0UGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ArvinSkole/Downloads/amrapstad-main@c922a8331e1/assignment_4/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ArvinSkole/repositories/softwaresikkerhet/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ArvinSkole/Downloads/amrapstad-main@c922a8331e1/assignment_4/Views/_ViewImports.cshtml]
+[C:/Users/ArvinSkole/repositories/softwaresikkerhet/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ArvinSkole/Downloads/amrapstad-main@c922a8331e1/assignment_4/Views/_ViewStart.cshtml]
+[C:/Users/ArvinSkole/repositories/softwaresikkerhet/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ArvinSkole/Downloads/amrapstad-main@c922a8331e1/assignment_4/Views/Shared/Shared/_Layout.cshtml]
+[C:/Users/ArvinSkole/repositories/softwaresikkerhet/Views/Shared/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-tm831hxk3y
 
-[C:/Users/ArvinSkole/Downloads/amrapstad-main@c922a8331e1/assignment_4/Views/Shared/_Layout.cshtml]
+[C:/Users/ArvinSkole/repositories/softwaresikkerhet/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-abk6czno30

@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using ApplicationDbContext = assignment_4.Data.ApplicationDbContext;
 
-//using ApplicationDbContext = assignment_4.Data.ApplicationDbContext;
+//using ApplicationDbContext = website.Data.ApplicationDbContext;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -10750,11 +10750,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ArvinSkole\\Downloads\\amrapstad-main@c922a8331e1\\assignment_4\\assignment_4.csproj",
-      "projectName": "assignment_4",
-      "projectPath": "C:\\Users\\ArvinSkole\\Downloads\\amrapstad-main@c922a8331e1\\assignment_4\\assignment_4.csproj",
+      "projectUniqueName": "C:\\Users\\ArvinSkole\\repositories\\softwaresikkerhet\\website.csproj",
+      "projectName": "website",
+      "projectPath": "C:\\Users\\ArvinSkole\\repositories\\softwaresikkerhet\\website.csproj",
       "packagesPath": "C:\\Users\\ArvinSkole\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ArvinSkole\\Downloads\\amrapstad-main@c922a8331e1\\assignment_4\\obj\\",
+      "outputPath": "C:\\Users\\ArvinSkole\\repositories\\softwaresikkerhet\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ArvinSkole\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -5,6 +5,7 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <UserSecretsId>aspnet-assignment_4-928AF081-D70B-4773-8A2D-BA26B408DCD6</UserSecretsId>
+        <RootNamespace>assignment_4</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>

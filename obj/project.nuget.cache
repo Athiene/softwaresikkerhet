@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gGtpov734BUcjUNNJU9tQn8+5eOdIafOXEsNX5TnUXf495li5gQztD/duKJp2MrBw9Of9dDGR4E2hNiQ8silsg==",
+  "dgSpecHash": "/RGw8xAgiVgeMBtUpJVzBdFCoOyINUZSLSGPWgig/mHt53TdaiueIZE75jfI4mXdreMrTIR3DPsFoGzr376UMQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ArvinSkole\\Downloads\\amrapstad-main@c922a8331e1\\assignment_4\\assignment_4.csproj",
+  "projectFilePath": "C:\\Users\\ArvinSkole\\repositories\\softwaresikkerhet\\website.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ArvinSkole\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ArvinSkole\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

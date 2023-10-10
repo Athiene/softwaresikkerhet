@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "assignment_4", "assignment_4.csproj", "{9F6856D4-4051-431D-8480-6791A9E82D91}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "website", "website.csproj", "{9F6856D4-4051-431D-8480-6791A9E82D91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
