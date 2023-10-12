@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7ZgIBiq5tfU0JSq9p5oe0t++zOq2MGptPgQGG/5I9S0W2QTBqelUQ0JMiIydyREwCEucU4MQtnlZatyypkwJmw==",
+  "dgSpecHash": "A0reWuWWXOWt6bH50SxNu/9Py60si5Zxa6usN5EIYgyK5ldZvDvKwB8bUREHO1WdG7iv8sFpARoosry3/kngkQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Bruker\\Skole\\softwaresikkerhet\\website.csproj",
   "expectedPackageFiles": [
@@ -192,7 +192,11 @@
     "C:\\Users\\Bruker\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\Bruker\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\Bruker\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\Bruker\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\Bruker\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\Bruker\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\Bruker\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.20\\microsoft.windowsdesktop.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\Bruker\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.20\\microsoft.aspnetcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\Bruker\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.20\\microsoft.netcore.app.host.win-x64.6.0.20.nupkg.sha512"
   ],
   "logs": []
 }
