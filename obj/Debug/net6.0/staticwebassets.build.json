@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ouOkLx8Rdz+bw8M8o6q9/9kXynWh58HU2IElcD+6Mg0=",
+  "Hash": "fck13HJfJSb3bsIYIpiYGTvQiPDFhcSlyX4FB2DfBUY=",
   "Source": "website",
   "BasePath": "_content/website",
   "Mode": "Default",
@@ -1086,6 +1086,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\_PostPartial.css"
+    },
+    {
+      "Identity": "C:\\Users\\kfeng\\ikt222g23h\\software_Ass1\\wwwroot\\css\\Add.css",
+      "SourceId": "website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kfeng\\ikt222g23h\\software_Ass1\\wwwroot\\",
+      "BasePath": "_content/website",
+      "RelativePath": "css/Add.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Add.css"
     },
     {
       "Identity": "C:\\Users\\kfeng\\ikt222g23h\\software_Ass1\\wwwroot\\css\\site.css",
