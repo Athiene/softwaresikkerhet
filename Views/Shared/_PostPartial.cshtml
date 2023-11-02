@@ -1,24 +1,25 @@
 ﻿@model Blogpost
 
-    <tr>
-        <td class="Nickname">
-            @Model.ApplicationUser.Nickname
-        </td>
-        <td class="Title">
-            @Model.Title
-        </td>
-        <td class="Summary">
-            @Model.Summary
-        </td>
-        <td class="Content">
-            @Html.Raw(Model.Content)
-        </td>
-        <td class="Time">
-            @Model.Time
-        </td>
-        <td>
-            <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
-            <a asp-action="Details" asp-route-id="@Model.Id">Details</a> |
-            <a asp-action="Delete" asp-route-id="@Model.Id">Delete</a>
-        </td>
-    </tr>
+<link rel="stylesheet" href="~/css/_PostPartial.css" asp-append-version="true" />
+
+
+<div class="wrapper">
+    <div class="Post">
+        <div class="title">
+            <h1>@Model.Title</h1>
+            <div class="date">
+                <h5>@Model.ApplicationUser.Nickname | @Model.Time</h5>
+            </div>
+        </div>
+        <div class="Content">
+            <p><b>Summary:</b> @Model.Summary</p>
+            <p><b>Content:</b> @Model.Content</p>
+        </div>
+        <div class="actions">
+            <a asp-action="Edit" class="actionButton Edit" asp-route-id="@Model.Id">Edit</a>
+            <a asp-action="Details" class="actionButton Display" asp-route-id="@Model.Id">Details</a>
+            <a asp-action="Delete" class="actionButton Delete" asp-route-id="@Model.Id">Delete</a>
+        </div>
+    </div>
+</div>
+

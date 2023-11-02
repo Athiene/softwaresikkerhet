@@ -1,0 +1,54 @@
+.AddBtn {
+    background-color: lightskyblue;
+    color: black;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    margin-bottom: 4%;
+}
+
+.Post {
+    flex: 1;
+    float: left;
+    margin-top: 2%;
+    border: 1px solid black;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 5%;
+    background-color: ghostwhite;
+    display: block;
+}
+
+.title {
+    align-items: center;
+    margin-bottom: 2%;
+    border-bottom: 2px solid black; 
+}
+
+
+.date {
+}
+
+.actionButton {
+    border-radius: 5%;
+    padding: 5px 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.Edit {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.Display {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.Delete {
+    background-color: Red;
+    color: black;
+}

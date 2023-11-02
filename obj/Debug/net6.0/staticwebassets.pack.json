@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\website.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\kfeng\\ikt222g23h\\software_Ass1\\wwwroot\\css\\_PostPartial.css",
+      "PackagePath": "staticwebassets\\css\\_PostPartial.css"
+    },
+    {
       "Id": "C:\\Users\\kfeng\\ikt222g23h\\software_Ass1\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
