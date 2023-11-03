@@ -11,8 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="081849ae-1bf8-4d61-a961-e9918db7198e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.website/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.website/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Blog/Edit.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Blog/Edit.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Shared/_PostPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_PostPartial.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/app.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/app.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,6 +153,8 @@
       <workItem from="1697110070480" duration="586000" />
       <workItem from="1697111247074" duration="585000" />
       <workItem from="1697112089159" duration="622000" />
+      <workItem from="1699000586232" duration="116000" />
+      <workItem from="1699001935244" duration="2168000" />
     </task>
     <servers />
   </component>

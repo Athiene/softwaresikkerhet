@@ -6,14 +6,14 @@
 <div class="wrapper">
     <div class="Post">
         <div class="title">
-            <h1>@Model.Title</h1>
+            <h1>@Html.Encode(Model.Title)</h1>
             <div class="date">
                 <h5>@Model.ApplicationUser.Nickname | @Model.Time</h5>
             </div>
         </div>
         <div class="Content">
-            <p><b>Summary:</b> @Model.Summary</p>
-            <p><b>Content:</b> @Model.Content</p>
+            <p><b>Summary:</b> @Html.Encode(Model.Summary)</p>
+            <p><b>Content:</b> @Html.Encode(Model.Content)</p>
         </div>
         <div class="actions">
             <a asp-action="Edit" class="actionButton Edit" asp-route-id="@Model.Id">Edit</a>
