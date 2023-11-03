@@ -122,8 +122,15 @@ namespace assignment_4.Areas.Identity.Pages.Account
 
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
-                
-                user.Nickname = Input.Nickname;
+
+                if (Input.Nickname == null)
+                {
+                    user.Nickname = user.UserName;
+                }
+                else
+                {
+                    user.Nickname = Input.Nickname;   
+                }
                 
                 var result = await _userManager.CreateAsync(user, Input.Password);
 
@@ -140,6 +147,7 @@ namespace assignment_4.Areas.Identity.Pages.Account
                         values: new { area = "Identity", userId = userId, code = code, returnUrl = returnUrl },
                         protocol: Request.Scheme);
 
+                    
                     await _emailSender.SendEmailAsync(Input.Email, "Confirm your email",
                         $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
 

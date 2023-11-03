@@ -1,5 +1,6 @@
 using assignment_4.Data;
 using assignment_4.Models;
+using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using ApplicationDbContext = assignment_4.Data.ApplicationDbContext;
@@ -7,6 +8,8 @@ using ApplicationDbContext = assignment_4.Data.ApplicationDbContext;
 //using ApplicationDbContext = website.Data.ApplicationDbContext;
 
 var builder = WebApplication.CreateBuilder(args);
+var config = builder.Configuration;
+var services1 = builder.Services;
 
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
@@ -20,7 +23,11 @@ builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.R
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
 
-
+services1.AddAuthentication().AddGoogle(googleOptions =>
+{
+    googleOptions.ClientId = config["Authentication:Google:ClientId"];
+    googleOptions.ClientSecret = config["Authentication:Google:ClientSecret"];
+});
 
 var app = builder.Build();
 
@@ -32,6 +39,7 @@ using (var services = app.Services.CreateScope())
     
     ApplicationDbInitializer.Initialize(db, um, rm);
 }
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
