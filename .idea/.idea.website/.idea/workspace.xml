@@ -141,6 +141,12 @@
         <option name="Build" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.assignment_4" />
+      <item itemvalue=".NET Launch Settings Profile.assignment_4: IIS Express" />
+      <item itemvalue=".NET Launch Settings Profile.website: assignment_4" />
+      <item itemvalue=".NET Launch Settings Profile.website: IIS Express" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
