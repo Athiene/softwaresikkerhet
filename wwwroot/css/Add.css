@@ -1,0 +1,16 @@
+.createBtn {
+    background-color: lightskyblue;
+    color: black;
+    border: none;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.backList {
+    background-color: lightskyblue;
+    color: black;
+    border: none;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    padding: 6px;
+}

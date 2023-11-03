@@ -1,12 +1,15 @@
 @model assignment_4.Models.Blogpost
 
+<link rel="stylesheet" href="~/css/_PostPartial.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/css/Add.css" asp-append-version="true" />
+
+
 @{
     ViewData["Title"] = "Add";
 }
 
-<h1>Create</h1>
+<h1>Create a Blogpost</h1>
 
-<h4>Blogpost</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -28,13 +31,10 @@
                 <span asp-validation-for="Content" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" id="Submit"/>
+                <input type="submit" value="Create" class="actionButton createBtn" id="Submit"/>
+                <a class="actionButton backList" asp-action="Index">Back to List</a>
             </div>
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
 </div>
 

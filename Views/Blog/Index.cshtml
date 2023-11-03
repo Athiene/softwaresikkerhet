@@ -1,5 +1,7 @@
 @model PostPartialModel
 
+<link rel="stylesheet" href="~/css/_PostPartial.css" asp-append-version="true" />
+
 
 @{
     ViewData["Title"] = "Index";
@@ -8,31 +10,14 @@
 <h1>Index</h1>
 
 <p>
-    <a asp-action="Add">Create New</a>
+    <a class="actionButton AddBtn" asp-action="Add">Create New</a>
 </p>
+
+
 <table class="table">
-    <thead>
-    <tr>
-        <th>
-            <p>Nickname</p>
-        </th>
-        <th>
-            <p>Title</p>
-        </th>
-        <th>
-            <p>Summary</p>
-        </th>
-        <th>
-            <p>Content</p>
-        </th>
-        <th>
-            <p>Time</p>
-        </th>
-    </tr>
-    </thead>
     <tbody>
-@foreach (var item in Model.Posts) {
-    <partial name="_PostPartial" model="item" />
-}
+        @foreach (var item in Model.Posts) {
+            <partial name="_PostPartial" model="item" />
+        }
     </tbody>
 </table>
