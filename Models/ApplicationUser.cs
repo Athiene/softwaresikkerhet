@@ -16,5 +16,4 @@ public class ApplicationUser : IdentityUser
     */
 
     
-    public string Nickname { get; set; }
 }
