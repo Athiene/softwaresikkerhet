@@ -1,7 +1,8 @@
-﻿using assignment_4.Models;
+﻿using website.Data;
+using website.Models;
 using Microsoft.AspNetCore.Identity;
 
-namespace assignment_4.Data;
+namespace wensite.Data;
 
 public class ApplicationDbInitializer
 {

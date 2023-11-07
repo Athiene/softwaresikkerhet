@@ -1,8 +1,8 @@
-﻿using assignment_4.Models;
+﻿using website.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace assignment_4.Data;
+namespace website.Data;
 
 public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
 {

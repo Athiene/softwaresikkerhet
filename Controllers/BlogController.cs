@@ -1,21 +1,22 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Globalization;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.Threading.Tasks;
+using website.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using assignment_4.Data;
-using assignment_4.Models;
+using website.Data;
+using website.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.VisualBasic.CompilerServices;
 using NuGet.Packaging.Signing;
 
-namespace assignment_4.Controllers
+namespace website.Controllers
 {
     public class BlogController : Controller
     {

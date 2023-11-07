@@ -1,9 +1,10 @@
-using assignment_4.Data;
-using assignment_4.Models;
+using website.Data;
+using website.Models;
 using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using ApplicationDbContext = assignment_4.Data.ApplicationDbContext;
+using wensite.Data;
+using ApplicationDbContext = website.Data.ApplicationDbContext;
 
 //using ApplicationDbContext = website.Data.ApplicationDbContext;
 
