@@ -8,12 +8,6 @@ public class ApplicationUser : IdentityUser
 {
     
     public ApplicationUser() {}
-    
-    /*
-    public ApplicationUser(string nickname)
-    {
-    }
-    */
 
-    
+    public string Nickname { get; set; }
 }

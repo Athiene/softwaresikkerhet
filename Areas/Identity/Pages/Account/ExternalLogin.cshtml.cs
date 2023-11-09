@@ -85,6 +85,9 @@ namespace website.Areas.Identity.Pages.Account
             [Required]
             [EmailAddress]
             public string Email { get; set; }
+
+            [Required]
+            public string Nickname { get; set; }
         }
         
         public IActionResult OnGet() => RedirectToPage("./Login");
@@ -156,6 +159,7 @@ namespace website.Areas.Identity.Pages.Account
 
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
+                user.Nickname = Input.Nickname;
 
                 var result = await _userManager.CreateAsync(user);
                 if (result.Succeeded)

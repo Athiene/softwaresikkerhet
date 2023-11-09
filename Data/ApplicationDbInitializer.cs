@@ -33,11 +33,12 @@ public class ApplicationDbInitializer
         rm.CreateAsync(normalRegUser).Wait();
         
         // Create users
-        var admin = new ApplicationUser { UserName = "admin@uia.no", Email = "admin@uia.no"};
+        var admin = new ApplicationUser { UserName = "admin@uia.no", Email = "admin@uia.no", Nickname = "Per Arne"};
         um.CreateAsync(admin, "Password1.").Wait();
         um.AddToRoleAsync(admin, "Admin").Wait();
 
-        var user = new ApplicationUser { UserName = "user@uia.no", Email = "user@uia.no", EmailConfirmed = true};
+
+        var user = new ApplicationUser { UserName = "user@uia.no", Email = "user@uia.no", EmailConfirmed = true, Nickname = "Arvin"};
         um.CreateAsync(user, "Password1.").Wait();
 
 
