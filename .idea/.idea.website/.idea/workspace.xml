@@ -16,6 +16,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/15296d67ffa548fdaf19f55648e38ef929bb0/b0/fe89b78a/Microsoft.Data.Sqlite.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -157,14 +167,7 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Controllers/BlogController.cs</url>
           <line>26</line>
-          <properties documentPath="C:\Users\Bruker\Skole\softwaresikkerhet\website\Controllers\BlogController.cs" initialLine="25" containingFunctionPresentation="Constructor 'BlogController'">
-            <startOffsets>
-              <option value="854" />
-            </startOffsets>
-            <endOffsets>
-              <option value="855" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="C:\Users\Bruker\Skole\softwaresikkerhet\website\Controllers\BlogController.cs" initialLine="25" containingFunctionPresentation="Constructor 'BlogController'" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
