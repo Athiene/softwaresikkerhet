@@ -101,7 +101,6 @@ namespace website.Areas.Identity.Pages.Account
             
             [Required]
             [Display(Name = "Nickname")]
-            [Compare("Password", ErrorMessage = "Please enter a Nickname")]
             public string Nickname { get; set; }
         }
 
@@ -122,6 +121,7 @@ namespace website.Areas.Identity.Pages.Account
 
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
+                user.Nickname = Input.Nickname;
                 var result = await _userManager.CreateAsync(user, Input.Password);
 
                 if (result.Succeeded)
