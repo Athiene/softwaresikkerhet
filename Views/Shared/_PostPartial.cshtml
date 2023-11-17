@@ -7,10 +7,9 @@
     <div class="Post">
         <div class="title">
             <h1>@Html.Encode(Model.Title)</h1>
-            <div class="date">
-                <h5>@Model.ApplicationUser.Nickname | @Model.Time</h5>
-            </div>
+            <h5>@Model.ApplicationUser.Nickname | @Model.Time</h5>
         </div>
+        <hr/>
         <div class="Content">
             <p><b>Summary:</b> @Html.Encode(Model.Summary)</p>
             <p><b>Content:</b> @Html.Encode(Model.Content)</p>

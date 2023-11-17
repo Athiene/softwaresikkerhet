@@ -16,20 +16,19 @@
     border: 1px solid black;
     padding-left: 2%;
     padding-right: 2%;
-    padding-bottom: 5%;
     background-color: ghostwhite;
+    border-radius: 15px;
     display: block;
 }
 
 .title {
     align-items: center;
     margin-bottom: 2%;
-    border-bottom: 2px solid black; 
 }
 
 
 .actionButton {
-    border-radius: 5%;
+    border-radius: 5px;;
     padding: 5px 10px;
     font-size: 20px;
     text-decoration: none;
@@ -45,7 +44,7 @@
     background-color: #00BD45;
     color: black;
     margin-top: 4%;
-    padding: 0.83%;
+    padding: 0.95%;
 }
 
 .Delete {

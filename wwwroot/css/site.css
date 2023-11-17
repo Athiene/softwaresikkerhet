@@ -1,7 +1,13 @@
 html {
   font-size: 14px;
-  background-color: white;
-
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  width: 100%;
+  background-image: url("https://i.pinimg.com/originals/52/83/59/5283594dd6b1d0dd4b8a59c723a35024.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 @media (min-width: 768px) {
@@ -10,13 +16,11 @@ html {
   }
 }
 
-html {
-  position: relative;
-  min-height: 100%;
-}
+
 
 body {
-  margin-bottom: 60px;
+  width: 70%;
+  height: 100vh;
   background-color: whitesmoke;
 
 }
