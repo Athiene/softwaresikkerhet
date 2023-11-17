@@ -14,3 +14,42 @@
     margin-bottom: 5%;
     padding: 6px;
 }
+
+.comfirmBtn {
+    background-color: #00BD45;
+    border-radius: 5%;
+    padding: 12px 35px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    border: none;
+    margin-top: 2%;
+    margin-bottom: 6%;
+}
+
+.comfirm {
+    background-color: #00BD45;
+    color: black;
+    border: none;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    transition: ease 1s ;
+}
+
+.smallBtn {
+    color: black;
+}
+
+
+
+.comfirmBtn:hover {
+    transition: ease 1s ;
+    background-color: #009637;
+    color: black;
+}
+
+.comfirm:hover {
+    transition: ease 1s ;
+    background-color: #009637;
+    color: black;
+}

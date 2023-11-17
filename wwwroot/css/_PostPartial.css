@@ -28,27 +28,52 @@
 }
 
 
-.date {
-}
-
 .actionButton {
     border-radius: 5%;
     padding: 5px 10px;
     font-size: 20px;
     text-decoration: none;
+    border: none;
 }
 
-.Edit {
-    background-color: black;
+.actButtED {
+    background-color: #4C4E52;
     color: whitesmoke;
 }
 
-.Display {
-    background-color: black;
-    color: whitesmoke;
+.save {
+    background-color: #00BD45;
+    color: black;
+    margin-top: 4%;
+    padding: 0.83%;
 }
 
 .Delete {
-    background-color: Red;
-    color: black;
+    background-color: #dc3545;
+    color: whitesmoke;
+}
+
+.deletePost {
+    background-color: #dc3545;
+    color: whitesmoke;
+    padding: 0.34%;
+}
+
+.actButtED:hover {
+    background-color: #1E2A29;
+    color: whitesmoke;
+}
+
+.Delete:hover {
+    background-color: #981B26;
+    color: whitesmoke;
+}
+
+.deletePost:hover {
+    background-color: #981B26;
+    color: whitesmoke;
+}
+
+.save:hover {
+    background-color: #009436;    
 }
