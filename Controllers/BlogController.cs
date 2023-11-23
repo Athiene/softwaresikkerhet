@@ -189,6 +189,11 @@ namespace website.Controllers
                 return Problem("Entity set 'ApplicationDbContext.Blogposts'  is null.");
             }
             var blogpost = await _context.Blogposts.FindAsync(id);
+            var user = _userManager.GetUserAsync(User).Result;
+            if (user.Id != blogpost.ApplicationUserId)
+            {
+                return RedirectToAction(nameof(Index));
+            }
             if (blogpost != null)
             {
                 _context.Blogposts.Remove(blogpost);
