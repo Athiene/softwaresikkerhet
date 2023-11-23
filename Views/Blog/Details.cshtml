@@ -4,10 +4,12 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<link rel="stylesheet" href="~/css/_PostPartial.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/css/Add.css" asp-append-version="true" />
+
+<h1>Details for Blogpost</h1>
 
 <div>
-    <h4>Blogpost</h4>
     <hr />
     <dl class="row">
         <dt class="col-sm-2">
@@ -43,6 +45,6 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a class="actionButton actButtED" asp-action="Edit" asp-route-id="@Model?.Id">Edit</a>
+    <a class="actionButton actButtED" asp-action="Index">Back to List</a>
 </div>

@@ -4,20 +4,26 @@
     ViewData["Title"] = "Register confirmation";
 }
 
+<link rel="stylesheet" href="~/css/_PostPartial.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/css/Add.css" asp-append-version="true" />
+
+
 <h1>@ViewData["Title"]</h1>
 @{
     if (@Model.DisplayConfirmAccountLink)
     {
-<p>
-    This app does not currently have a real email sender registered, see <a href="https://aka.ms/aspaccountconf">these docs</a> for how to configure a real email sender.
-    Normally this would be emailed: <a id="confirm-link" href="@Model.EmailConfirmationUrl">Click here to confirm your account</a>
-</p>
+        <p>
+            To confirm your account click here: 
+        </p>
+        <div class="form-group">
+            <a id="confirm-link" class="comfirmBtn" href="@Model.EmailConfirmationUrl">Confirm your account</a>
+        </div>
     }
     else
     {
-<p>
-        Please check your email to confirm your account.
-</p>
+        <p>
+            Please check your email to confirm your account. Dont work yet :)
+        </p>
     }
 }
 
