@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace assignment_4.Controllers;
+namespace website.Controllers;
 
 public class SharedController : Controller
 {

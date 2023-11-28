@@ -1,9 +1,11 @@
-using assignment_4.Data;
-using assignment_4.Models;
+using System.Threading.RateLimiting;
+using website.Data;
+using website.Models;
 using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using ApplicationDbContext = assignment_4.Data.ApplicationDbContext;
+using wensite.Data;
+using ApplicationDbContext = website.Data.ApplicationDbContext;
 
 //using ApplicationDbContext = website.Data.ApplicationDbContext;
 
@@ -17,11 +19,19 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlite(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-
 builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
+
+builder.Services.Configure<IdentityOptions>(options =>
+{
+    // Default Lockout settings.
+    options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
+    options.Lockout.MaxFailedAccessAttempts = 3;
+    options.Lockout.AllowedForNewUsers = true;
+});
+
 
 services1.AddAuthentication().AddGoogle(googleOptions =>
 {
@@ -52,6 +62,8 @@ else
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+
+app.UseRateLimiter();
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

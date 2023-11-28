@@ -7,17 +7,16 @@
     <div class="Post">
         <div class="title">
             <h1>@Html.Encode(Model.Title)</h1>
-            <div class="date">
-                <h5>@Model.ApplicationUser.Email | @Model.Time</h5>
-            </div>
+            <h5>@Model.ApplicationUser.Nickname | @Model.Time</h5>
         </div>
+        <hr/>
         <div class="Content">
             <p><b>Summary:</b> @Html.Encode(Model.Summary)</p>
             <p><b>Content:</b> @Html.Encode(Model.Content)</p>
         </div>
         <div class="actions">
-            <a asp-action="Edit" class="actionButton Edit" asp-route-id="@Model.Id">Edit</a>
-            <a asp-action="Details" class="actionButton Display" asp-route-id="@Model.Id">Details</a>
+            <a asp-action="Edit" class="actionButton actButtED" asp-route-id="@Model.Id">Edit</a>
+            <a asp-action="Details" class="actionButton actButtED" asp-route-id="@Model.Id">Details</a>
             <a asp-action="Delete" class="actionButton Delete" asp-route-id="@Model.Id">Delete</a>
         </div>
     </div>

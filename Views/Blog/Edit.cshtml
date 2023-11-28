@@ -1,4 +1,4 @@
-@model assignment_4.Models.Blogpost
+@model website.Models.Blogpost
 
 <link rel="stylesheet" href="~/css/_PostPartial.css" asp-append-version="true" />
 <link rel="stylesheet" href="~/css/Add.css" asp-append-version="true" />
@@ -31,8 +31,8 @@
                 <span asp-validation-for="Content" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="actionButton createBtn" id="Submit"/>
-                <a class="actionButton backList" asp-action="Index">Back to List</a>
+                <input type="submit" value="Save" class="actionButton save" id="Submit"/>
+                <a class="actionButton actButtED" asp-action="Index">Back to List</a>
             </div>
         </form>
     </div>

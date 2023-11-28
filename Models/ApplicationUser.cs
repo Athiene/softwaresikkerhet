@@ -1,19 +1,13 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿﻿using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Identity;
 
-namespace assignment_4.Models;
+namespace website.Models;
 
 
 public class ApplicationUser : IdentityUser
 {
     
     public ApplicationUser() {}
-    
-    /*
-    public ApplicationUser(string nickname)
-    {
-    }
-    */
 
-    
+    public string Nickname { get; set; }
 }

@@ -16,39 +16,64 @@
     border: 1px solid black;
     padding-left: 2%;
     padding-right: 2%;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
     background-color: ghostwhite;
+    border-radius: 15px;
     display: block;
 }
 
 .title {
     align-items: center;
     margin-bottom: 2%;
-    border-bottom: 2px solid black; 
 }
 
-
-.date {
-}
 
 .actionButton {
-    border-radius: 5%;
+    border-radius: 5px;;
     padding: 5px 10px;
     font-size: 20px;
     text-decoration: none;
+    border: none;
 }
 
-.Edit {
-    background-color: black;
+.actButtED {
+    background-color: #4C4E52;
     color: whitesmoke;
 }
 
-.Display {
-    background-color: black;
-    color: whitesmoke;
+.save {
+    background-color: #00BD45;
+    color: black;
+    margin-top: 4%;
+    padding: 0.95%;
 }
 
 .Delete {
-    background-color: Red;
-    color: black;
+    background-color: #dc3545;
+    color: whitesmoke;
+}
+
+.deletePost {
+    background-color: #dc3545;
+    color: whitesmoke;
+    padding: 0.34%;
+}
+
+.actButtED:hover {
+    background-color: #1E2A29;
+    color: whitesmoke;
+}
+
+.Delete:hover {
+    background-color: #981B26;
+    color: whitesmoke;
+}
+
+.deletePost:hover {
+    background-color: #981B26;
+    color: whitesmoke;
+}
+
+.save:hover {
+    background-color: #009436;    
 }

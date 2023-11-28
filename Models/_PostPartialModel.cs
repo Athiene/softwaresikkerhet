@@ -1,4 +1,4 @@
-﻿namespace assignment_4.Models;
+﻿namespace website.Models;
 
 public class PostPartialModel
 {
